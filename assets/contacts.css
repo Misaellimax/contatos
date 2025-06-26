@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:#111317;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.container{
+    width: 800%;
+    height: 100%;
+    
+}
+
+.container-imagem{
+    margin-top: 75px;
+    display: flex;
+    justify-content: center;
+}
+
+.img{
+    background-image: url("wrm-original.png");
+    height: 150px;
+    width: 150px;
+    background-size: cover;
+}
+
+.container-botao{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.container-botao a {
+  text-decoration: none; 
+  display: flex; 
+  width: 100%; 
+  justify-content: center;
+}
+
+.botao {
+    width: 90%;
+    height: 60px;
+    border: 2px solid black;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    background-color: #1a9bb0;
+  box-shadow: 7px 5px 0px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 7px 5px 0px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 7px 5px 0px 0px rgba(0,0,0,0.75);
+color: #111317;
+}
+.botao i {
+    margin-left: 20px;
+    font-size: 25px;
+}
+
+.botao p {
+    flex: 0.9;
+    text-align: center;
+    font-weight: 800;
+    }
+
+
+.botao:hover {
+    background-color: #137b8b;
+    cursor: pointer;
+    width: 92%;
+}
